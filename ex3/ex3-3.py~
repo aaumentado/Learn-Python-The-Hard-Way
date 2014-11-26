@@ -1,0 +1,34 @@
+print "I will now count my chickens:"
+
+# All calcs will be floating point
+# calculates the number of hens, should evaluate as
+# 25 + 5 = 30
+print "Hens", 25.0+30.0/6
+
+# calculates number of rooster
+# should be 100 - remainder of 75/4 = 100 - 3, e.g. 75/4 = 18 with 3 left over
+# only need one number in a *,/,% to be floating point for calc to evaluate as
+# floating point
+print "Roosters", 100-25.0*3%4
+
+print "Now I will count the eggs:"
+
+# should evaluate as 3+2+1-5+0-0.25+6
+# but 0.25 floors to 0 if integer
+# therefore evaluates to 1+0-0+6 = 7
+print 3+2+1-5+4.0%2-1/4+6
+
+print "Is it true that 3 + 2 < 5 - 7?"
+
+print 3+2<5-7
+
+print "What is 3 + 2?", 3.0+2
+print "What is 5 - 7?", 5.0-7
+
+print "Oh, that's why it's False."
+
+print "How about some more."
+
+print "Is it greater?", 5>-2
+print "Is it greater or equal?", 5>=-2
+print "Is it less or equal?", 5<=-2

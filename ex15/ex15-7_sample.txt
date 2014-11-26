@@ -1,0 +1,3 @@
+this is a test for ex15-7
+for direct output from python
+command line
